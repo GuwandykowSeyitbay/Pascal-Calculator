@@ -1,0 +1,45 @@
+program kalkulyator;
+var a,b,garas,sn1:integer;
+c:real;
+GAKB:byte;
+begin
+garas:=10;
+sn1:=1;
+writeln('Kalkulyator    Duzen: Guwandykow Seyitbay');
+writeln('1.Gosmak');
+writeln('2.Ayyrnak');
+writeln('3.Kopeltmek');
+writeln('4.Bolmek');
+write('San giriz: ');
+readln(gakb);
+while sn1>garas do
+if gakb = 1 then writeln('Gosmak');
+if gakb = 1 then write('1-nji sany giriz: ');
+if gakb = 1 then readln(a);
+if gakb = 1 then write('2-nji sany giriz: ');
+if gakb = 1 then readln(b);
+if gakb = 1 then c:=a+b;
+if gakb = 1 then writeln(a,'+',b,'=',c);
+if gakb = 2 then writeln('Ayyrmak');
+if gakb = 2 then write('1-nji sany giriz: ');
+if gakb = 2 then readln(a);
+if gakb = 2 then write('2-nji sany giriz: ');
+if gakb = 2 then readln(b);
+if gakb = 2 then c:=a-b;
+if gakb = 2 then writeln(a,'-',b,'=',c);
+if gakb = 3 then writeln('Kopeltmek');
+if gakb = 3 then write('1-nji sany giriz: ');
+if gakb = 3 then readln(a);
+if gakb = 3 then write('2-nji sany giriz: ');
+if gakb = 3 then readln(b);
+if gakb = 3 then c:=a*b;
+if gakb = 3 then writeln(a,'*',b,'=',c);
+if gakb = 4 then writeln('Bolmek');
+if gakb = 4 then write('1-nji sany giriz: ');
+if gakb = 4 then readln(a);
+if gakb = 4 then write('2-nji sany giriz: ');
+if gakb = 4 then readln(b);
+if gakb = 4 then c:=a/b;
+if gakb = 4 then writeln(a,'/',b,'=',c);
+readln;
+end.
